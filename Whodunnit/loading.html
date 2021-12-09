@@ -1,0 +1,53 @@
+<html>
+    <body><div class="loader"><img src="welcome_loading.gif" width=700px height=300px></div>
+    </body>
+    <br>
+    <p><h2><div class="div1" style=color:crimson>Click <a href="detective.html">here </a>to begin</div></h2></p>
+    <style>
+.loader {
+margin-left: 50px;
+position: absolute;
+}
+body{
+    margin: top 50px;
+    background-color: black;
+    opacity: 0;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeOutAnimation {
+    100% {
+        opacity: 1;
+    }
+    0% {
+        opacity: 0;
+    }   
+}
+p{
+    text-emphasis-color:rgb(219, 209, 170);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin-top:50px;
+}
+
+.div1{
+    margin-top: 300px;
+    margin-left: 50px;
+}
+p.div1:hover{
+    background-color:crimson;
+    border-radius: 3px;
+    padding: 3px;
+
+}
+</style>
+</html>
